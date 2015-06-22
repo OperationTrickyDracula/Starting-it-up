@@ -1,0 +1,57 @@
+/*~~~~~Background~~~~~*/
+html{
+    background:         linear-gradient(left, #200000, #100000, #0A0000);	
+    background: -webkit-linear-gradient(left, #200000, #100000, #0A0000); 
+    background:      -o-linear-gradient(left, #200000, #100000, #0A0000);
+    background:    -moz-linear-gradient(left, #200000, #100000, #0A0000);
+}
+
+.sidebar{
+    width:
+}
+
+/*~~~~~Title Name~~~~~*/
+a {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+/*~~~~~Cite Summary~~~~~*/
+.summary {
+    position: relative;
+    color: white;
+    font-size: 25;
+    font-weight: light;
+    top: 50px;
+    text-align: center;
+    border: 1px solid black
+}
+
+/*~~~~~Contributers~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+table{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    background:         linear-gradient(left, #300000, #200000, #1A0000);	
+    background: -webkit-linear-gradient(left, #300000, #200000, #1A0000);
+    background:      -o-linear-gradient(left, #300000, #200000, #1A0000);
+    background:    -moz-linear-gradient(left, #300000, #200000, #1A0000);
+    border-top-left-radius: 50px;
+}
+/*~~~~~Contributers Desciptions~~~~~*/
+td div{
+    width: 300px; 
+    height: 500px; 
+    background:         linear-gradient(left, #400000, #300000, #1A0000);	
+    background: -webkit-linear-gradient(left, #400000, #300000, #1A0000);
+    background:      -o-linear-gradient(left, #400000, #300000, #1A0000);
+    background:    -moz-linear-gradient(left, #400000, #300000, #1A0000);
+    margin: 25px;
+    border-top-left-radius: 25px;
+}
+/*~~~~~~Contributers Names~~~~~*/
+td h1{
+    color: #997777;
+    text-align: center;
+}/*~~~~~~~~~~~~~~~~~~~~~~*/
