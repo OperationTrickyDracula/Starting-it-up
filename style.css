@@ -12,7 +12,41 @@ a {
     position: relative;
     text-align: center;
 }
+/*~~~~Header~~~~*/
+
+.header-home{
+    position:relative;
+    top:25px;
+    height: 260px;
+    font-family: Comic Sans, Arial;
+    font-size: 100px;
+	color: #E6E6E6;
+	width:100%;
+    background:         linear-gradient(left, #9F0000, #600000, #400000);
+    background: -webkit-linear-gradient(left, #9F0000, #600000, #400000);
+    background:      -o-linear-gradient(left, #9F0000, #600000, #400000);
+    background:    -moz-linear-gradient(left, #9F0000, #600000, #400000);"
+}
+
+.header-home img{
+    height: 250px;
+    padding-top: 5px;
+    padding-left:5px;
+    padding-bottom:5px;"
+}
 /*~~~~~Top Bar~~~~~*/
+.TopBar-Parent{  /*Basically the div above TopBar*/ 
+    top:0px;
+    width: 100%;
+    z-index:9001;
+    height:40px;
+    background:         linear-gradient(left, #9F0000, #600000, #400000);
+    background: -webkit-linear-gradient(left, #9F0000, #600000, #400000);
+    background:      -o-linear-gradient(left, #9F0000, #600000, #400000);
+    background:    -moz-linear-gradient(left, #9F0000, #600000, #400000);
+    position:fixed;
+}
+
 .TopBar form{
     display: inline;
 }
@@ -25,7 +59,42 @@ a {
     border: 0px;
     color: white;
 }
+.Login-dropdown {
+    position:fixed;
+    top:40px;
+    visibility: hidden;
+    width: 250px;
+    right: 5px;
+    z-index:9002;
+    height:40px;
+    background-color: rgba(27, 27, 27, .4);,
+}
 
+.Login-dropdown form input{
+    width: 35%;
+    top: 15px; 
+    left: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid black;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: -8px;
+    padding: 0px 20px 0px 5px;
+    background-color: #FCFCFC;  
+    border: 0px;
+    color: gray;
+}
+.Login-dropdown form .login-submit{
+    width: 15%;
+    font-size: 12px;
+    border-left: 2px solid black;
+    margin-top:5px;
+    padding: 0px 20px 0px 5px;
+    background-color: #FCFCFC;  
+    border: 0px;
+    color: gray;
+}
 /*~~~~~Cite Summary~~~~~*/
 .summary {
     position: relative;
