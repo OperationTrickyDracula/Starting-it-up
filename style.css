@@ -6,15 +6,24 @@ html{
     background:    -moz-linear-gradient(left, #200000, #100000, #0A0000);
 }
 
-.sidebar{
-    width:
-}
-
 /*~~~~~Title Name~~~~~*/
 a {
     color: white;
     position: relative;
     text-align: center;
+}
+/*~~~~~Top Bar~~~~~*/
+.TopBar form{
+    display: inline;
+}
+.TopBar form input{
+    font-size: 25px;
+    border-left: 2px solid black;
+    margin-top:5px;
+    padding: 0px 20px 0px 5px;
+    background-color: #9F0000;  
+    border: 0px;
+    color: white;
 }
 
 /*~~~~~Cite Summary~~~~~*/
@@ -25,7 +34,7 @@ a {
     font-weight: light;
     top: 50px;
     text-align: center;
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 /*~~~~~Contributers~~~~~*/
