@@ -1,6 +1,11 @@
-var main = function(){
+var main = function(){ 
     $('.Login-Button').click(function(){
-        $('.Login-dropdown').toggle();
+        if($('.Login-dropdown').css("visibility") === "hidden"){
+            $('.Login-dropdown').css("visibility", "visible");
+        }
+        else{
+            $('.Login-dropdown').css("visibility", "hidden");
+        }
     });
 }
 
