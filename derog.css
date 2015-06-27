@@ -1,0 +1,6 @@
+html{
+    background:         linear-gradient(left, #400000, #020000, #EA0000);	
+    background: -webkit-linear-gradient(left, #400000, #020000, #EA0000); 
+    background:      -o-linear-gradient(left, #400000, #020000, #EA0000);
+    background:    -moz-linear-gradient(left, #400000, #020000, #EA0000);
+}
