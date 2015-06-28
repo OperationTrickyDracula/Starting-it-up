@@ -1,10 +1,15 @@
+var fadeTime = 200;
 var main = function(){ 
     $('.Login-Button').click(function(){
-        if($('.Login-dropdown').css("visibility") === "hidden"){
-            $('.Login-dropdown').css("visibility", "visible");
+        if($('.open').length == 0){
+            $('.Login-dropdown').fadeIn(fadeTime).addClass('open');
+            $('.header-home img').fadeOut(fadeTime);
+            $('.header-home img').css("position", "relative");
         }
         else{
-            $('.Login-dropdown').css("visibility", "hidden");
+            $('.open').fadeOut(fadeTime).removeClass('open');
+            $('.header-home img').fadeIn(fadeTime);
+
         }
     });
 }

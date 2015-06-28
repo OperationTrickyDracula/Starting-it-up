@@ -15,7 +15,7 @@ a {
 /*~~~~Header~~~~*/
 
 .header-home{
-    position:relative;
+    position: relative;
     top:25px;
     height: 260px;
     font-family: Comic Sans, Arial;
@@ -28,13 +28,22 @@ a {
     background:    -moz-linear-gradient(left, #9F0000, #600000, #400000);"
 }
 
-.header-home img{
+.header-home span{
+    display: horizontal;
     height: 250px;
     padding-top: 5px;
     padding-left:5px;
-    padding-bottom:5px;"
+    padding-bottom:5px;
+    visibility: visible;
+}
+.header-home img{
+    height: 250px;
+}   
+.header-home a{
+    display: block;
 }
 /*~~~~~Top Bar~~~~~*/
+/*~~~~~~~~~~~~~~~~~*/
 .TopBar-Parent{  /*Basically the div above TopBar*/ 
     top:0px;
     width: 100%;
@@ -59,19 +68,31 @@ a {
     border: 0px;
     color: white;
 }
+/*~~~~~ Top Bar login~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
+button {
+   font-size: 25px;
+    border-left: 2px solid black;
+    margin-top:5px;
+    padding: 0px 20px 0px 5px;
+    background-color: #9F0000;  
+    border: 0px;
+    color: white;
+}
+
 .Login-dropdown {
     position:fixed;
-    top:40px;
-    visibility: hidden;
-    width: 250px;
+    left:0px;
+    top:50px;
+    display: none;
+    width: 500px;
     right: 5px;
     z-index:9002;
     height:40px;
-    background-color: rgba(27, 27, 27, .4);,
 }
 
 .Login-dropdown form input{
-    width: 35%;
+    width: 500px;
     top: 15px; 
     left: 10px;
     padding-left: 10px;
@@ -83,7 +104,7 @@ a {
     padding: 0px 20px 0px 5px;
     background-color: #FCFCFC;  
     border: 0px;
-    color: gray;
+    color: blue;
 }
 .Login-dropdown form .login-submit{
     width: 15%;
@@ -95,6 +116,9 @@ a {
     border: 0px;
     color: gray;
 }
+
+
+
 /*~~~~~Cite Summary~~~~~*/
 .summary {
     position: relative;
