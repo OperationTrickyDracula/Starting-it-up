@@ -6,11 +6,11 @@ html{
     background:    -moz-linear-gradient(left, #200000, #100000, #0A0000);
 }
 
-/*~~~~~Title Name~~~~~*/
 a {
     color: white;
     position: relative;
-    text-align: center;
+    font-size: 20px;
+    display: block;
 }
 /*~~~~Header~~~~*/
 
@@ -25,23 +25,14 @@ a {
     background:         linear-gradient(left, #9F0000, #600000, #400000);
     background: -webkit-linear-gradient(left, #9F0000, #600000, #400000);
     background:      -o-linear-gradient(left, #9F0000, #600000, #400000);
-    background:    -moz-linear-gradient(left, #9F0000, #600000, #400000);"
-}
-
-.header-home span{
-    display: horizontal;
-    height: 250px;
-    padding-top: 5px;
-    padding-left:5px;
-    padding-bottom:5px;
-    visibility: visible;
-}
+    background:    -moz-linear-gradient(left, #9F0000, #600000, #400000);
+}    
+.header-home .header{
+    padding-left: 10px;
+}    
 .header-home img{
     height: 250px;
-}   
-.header-home a{
-    display: block;
-}
+}    
 /*~~~~~Top Bar~~~~~*/
 /*~~~~~~~~~~~~~~~~~*/
 .TopBar-Parent{  /*Basically the div above TopBar*/ 
@@ -71,7 +62,7 @@ a {
 /*~~~~~ Top Bar login~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~*/
 button {
-   font-size: 25px;
+    font-size: 25px;
     border-left: 2px solid black;
     margin-top:5px;
     padding: 0px 20px 0px 5px;
@@ -85,34 +76,33 @@ button {
     left:0px;
     top:50px;
     display: none;
-    width: 500px;
+    width: 350px;
     right: 5px;
     z-index:9002;
     height:40px;
 }
 
 .Login-dropdown form input{
-    width: 500px;
-    top: 15px; 
+    position: relative;
+    width: 355px;
+    top: 28px; 
     left: 10px;
-    padding-left: 10px;
-    font-size: 12px;
-    border-left: 2px solid black;
-    margin-top:10px;
+    font-size: 24px;
+    margin-top:19px;
     margin-left: 10px;
     margin-right: -8px;
     padding: 0px 20px 0px 5px;
-    background-color: #FCFCFC;  
+    background-color: #FCECEC;  
     border: 0px;
-    color: blue;
+    color: black;
 }
 .Login-dropdown form .login-submit{
-    width: 15%;
-    font-size: 12px;
+    width: 20%;
+    font-size: 16px;
     border-left: 2px solid black;
     margin-top:5px;
     padding: 0px 20px 0px 5px;
-    background-color: #FCFCFC;  
+    background-color: #0C0C0C;  
     border: 0px;
     color: gray;
 }
@@ -123,16 +113,16 @@ button {
 .summary {
     position: relative;
     color: white;
-    font-size: 25;
     font-weight: light;
     top: 50px;
+    font-size: 30px;
     text-align: center;
     border: 1px solid black;
 }
 
 /*~~~~~Contributers~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~*/
-table{
+.contributers{
     border-left: 5px solid black;
     border-bottom: 5px solid black;
     background:         linear-gradient(left, #300000, #200000, #1A0000);	
@@ -150,10 +140,15 @@ td div{
     background:      -o-linear-gradient(left, #400000, #300000, #1A0000);
     background:    -moz-linear-gradient(left, #400000, #300000, #1A0000);
     margin: 25px;
+    padding: 25px;
     border-top-left-radius: 25px;
 }
 /*~~~~~~Contributers Names~~~~~*/
 td h1{
     color: #997777;
     text-align: center;
+/*~~~~~~Contributers Text~~~~~*/
+td a{
+    margin: 10px;
+}
 }/*~~~~~~~~~~~~~~~~~~~~~~*/
